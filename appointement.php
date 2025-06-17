@@ -104,8 +104,9 @@ try {
                         <span>Bonjour, <?php echo htmlspecialchars($_SESSION['user_name']); ?></span>
                     </li>
                         <li><a href="inscription.php" >inscription</a></li>
-                    <li><a href="connexion.php" >connexion</a></li>
-                    <li><a href="appointement.php" class="panier-link">Rendez-Vous</a></li>
+                    <!-- <li><a href="connexion.php" >connexion</a></li>
+                    <li><a href="appointement.php" class="panier-link">Rendez-Vous</a></li> -->
+                    <li><a href="logout.php" class="logout-link"><i class="fas fa-sign-out-alt"></i> Déconnexion</a></li>
                 </ul>
             </div>
         </nav>
